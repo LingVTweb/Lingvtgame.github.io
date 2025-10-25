@@ -10,8 +10,8 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="让凌星闪耀的游戏博客 search page">
-<title>让凌星闪耀的游戏博客 - Tag</title>
+<meta name="description" content="LingVT的游戏餐厅 search page">
+<title>LingVT的游戏餐厅 - Tag</title>
 
 </head>
 <style>
@@ -76,7 +76,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <nav class="SideNav"></nav>
 <div class="notFind" style="display:none;font-size:24px;margin:8px;">Not Find</div>
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://game.lingvt.dpdns.org/">让凌星闪耀的游戏博客</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://game.lingvt.dpdns.org/">LingVT的游戏餐厅</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
@@ -236,7 +236,7 @@ function setClassDisplay(label){
     let lists = document.getElementsByClassName("lists");
     let tagTitle = document.getElementsByClassName("tagTitle")[0];
     tagTitle.innerHTML="Tag #"+label;
-    document.title=label+" - 让凌星闪耀的游戏博客";
+    document.title=label+" - LingVT的游戏餐厅";
     document.getElementsByClassName("subnav-search-input")[0].value='';
     if(label=="All"){
         for(let i = 0; i < lists.length; i++){lists[i].style.display='block';}
@@ -264,8 +264,8 @@ function searchShow(){
     let tagTitle = document.getElementsByClassName("tagTitle")[0];
     let searchInput = document.getElementsByClassName("subnav-search-input")[0].value;
     tagTitle.innerHTML="Search #"+searchInput;
-    if(searchInput==''){document.title="Search - 让凌星闪耀的游戏博客";}
-    else{document.title=searchInput+" - 让凌星闪耀的游戏博客";}
+    if(searchInput==''){document.title="Search - LingVT的游戏餐厅";}
+    else{document.title=searchInput+" - LingVT的游戏餐厅";}
     let a=0;
     window.location.hash="#"+(searchInput);
     for(let i = 0; i < lists.length; i++){
