@@ -8,6 +8,10 @@
 运行平台：PC
 游戏版本号：1.06
 语言：官中
+## 下载链接
+[萌盘下载](https://pan.moe/s/MVMYha)
+[维咔下载服务](https://vikingfile.com/f/bZiCtWdgaB)
+[OneDrive](https://wgtp6-my.sharepoint.com/:u:/g/personal/lingvt_wgtp6_onmicrosoft_com/EXS19X4DOIFEs_7FlO6tPPsBi6AvtuZ2dIkfDDieyYy5Nw?e=kzr3xn)
 ## 游戏简介
 如果是菲洛的话…
 就算被看光…也还是好,好羞耻…!
